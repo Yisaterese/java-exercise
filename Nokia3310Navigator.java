@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Nokia3310{
+public class Nokia3310Navigator{
 public static void main(String[] args){
 
 Scanner scanner = new Scanner(System.in);
@@ -50,7 +50,7 @@ int menu = scanner.nextInt();
 				case 1:
 					System.out.print("Search");
 					break;
-				case 2:
+				case 2:2
 					System.out.print("Service Nos");
 					break;
 				case 3:
@@ -93,7 +93,7 @@ int menu = scanner.nextInt();
 					System.out.print("Enter a valid option");
 				}
 				break;
-		case 2:
+		case 2:1
 			System.out.print("   MESSAGES\n1.Write message\n2.Inbox\n3.Outbox\n4.Picure messages\n5.Templates\n6.Smileys\n7.Message settings\n8.Info services\n9.Voice mailbox number\n10.Service command editor\n");
 			
 		System.out.print("Select between 1 and 10 for options in messages: ");
