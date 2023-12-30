@@ -57,7 +57,7 @@ private House myHouse;
 	
 	@Override
 	public String toString(){
-	return String.format("Hi my first name is %s and my last name is %s%n%s in complexion and am %d feet tall.%nBy God's grace i own a car: %s and a house: %s%n",getFirstName(),getLastName(),getComplexion(),getHeight(),getMyCar(),getMyHouse());
+	return String.format("%nHi my first name is %s and my last name is %s%n%s in complexion and am %d feet tall.%nBy God's grace i own a car: %s and a house: %s%n",getFirstName(),getLastName(),getComplexion(),getHeight(),getMyCar(),getMyHouse());
 	} 
 	
 }

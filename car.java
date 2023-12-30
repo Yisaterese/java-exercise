@@ -57,7 +57,7 @@ private double price;
 	
 	@Override
 	public String toString(){
-	return String.format("colour: %s%n,plate number: %s%n,model: %s%n,brand: %s%n,price:%.2f",getColourOfCar(),getPlateNumber(), getModel(),getPrice());
+	return String.format("my car colour is %s%nplate number is %s%nmodel is %s%nbrand is %s and%nthe price is %.2f%n",getColourOfCar(),getPlateNumber(), getModel(),getBrand(),getPrice());
 	}
 	
 	
