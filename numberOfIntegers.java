@@ -17,17 +17,6 @@ while(input.hasNext()){
 System.out.println("Enter numbers or Ctrl Z  to stop");
 int number = input.nextInt();
 	if(number < 0){
-<<<<<<< HEAD
-	negativeCount++;	
-	}
-
-	else if(number > 0){
-	positiveCount++;
-	}
-
-	else if (number == 0){
-	zeroCount++;
-=======
 	negativeCount--;	
 	}
 
@@ -37,7 +26,6 @@ int number = input.nextInt();
 
 	else if (number == 0){
 	zeroCount--;
->>>>>>> c9885402822631f2168090bc12b2a94c0d6ec468
 	}
 }
 
