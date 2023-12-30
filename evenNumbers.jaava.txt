@@ -1,0 +1,12 @@
+evenNumbers = 0
+oddNumbers = 0
+count = 1
+total = 0
+while number <= 100:
+	count +=1
+	if(number % 2 == 0):
+		print(evennumbers) 
+	if(number % 2 != 0):
+		print(oddNumbers)
+ 
+print("Expected output: {total} number of even numbers: {evenNumbers}\nThe number of odd numbers: {oddNumbers}"total,evenNumbers,oddNumbers)
