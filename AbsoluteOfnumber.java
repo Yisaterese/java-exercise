@@ -7,8 +7,7 @@ Scanner scanner = new Scanner(System.in);
 System.out.print("Enter number: ");
 int number = scanner.nextInt();
 int num = 0;
-number * -1;
-number * 1;
+
 for(num = 1; num <= number; num++){
 if(number == 0 ){
 	System.out.print(number);

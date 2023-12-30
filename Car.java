@@ -1,15 +1,15 @@
 public class Car{
 
 private String colourOfCar;
-private String plateNumber;
+private String nameOfCar;
 private String model;
 private String brand;
 private double price;
 	
-	public Car(String colourOfCar,String plateNumber,String model, String brand, double price){
+	public Car(String colourOfCar,String nameOfCar,String model, String brand, double price){
 	
 	this.colourOfCar = colourOfCar;
-	this.plateNumber = plateNumber;
+	this.nameOfCar = nameOfCar;
 	this.model = model;
 	this.brand = brand;
 	this.price = price;
@@ -22,12 +22,12 @@ private double price;
 		return colourOfCar;
 	}
 
-	public void setPlateNumber(String plateNumber){
-		this.plateNumber = plateNumber;
+	public void setNameOfCar(String nameOfCar){
+		this.nameOfCar = nameOfCar;
 	}
 
-	public String getPlateNumber(){
-		return plateNumber;
+	public String getNameOfCar(){
+		return nameOfCar;
 	}
 
 
